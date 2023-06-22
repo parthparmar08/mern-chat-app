@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+input,
+select,
+button {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+  padding: 5px;
+  margin-left: 10px;
+  width: 80;
+  border-radius: 30px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #1e7007;
+  border: none;
+  border-radius: 30px;
+}
+
+.messagelist {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 480px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.message {
+  background-color: #90e45093;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 10px;
+  max-width: 70%;
+}
+
+.message p {
+  margin: 0;
+}
+
+.message strong {
+  font-weight: bold;
+}
+
+.message.sent {
+  align-self: flex-end;
+  background-color: #fafca5;
+}
+
+.message.received {
+  align-self: flex-start;
+}
+
+.messtextbox {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.messbtn {
+  margin-top: 10px;
+}
+
+.input-container {
+  display: flex;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.error {
+  color: red;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.no-messages {
+  color: #888;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+}
